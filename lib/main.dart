@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) {
     return MaterialApp(
   routes: {
-    HomeScreen.routeName :(_)=>HomeScreen()
+     HomeScreen.routeName :(_)=>HomeScreen()
   },
       initialRoute:HomeScreen.routeName ,
     );
